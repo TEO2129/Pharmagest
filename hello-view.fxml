@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <left>
+        <AnchorPane prefHeight="407.0" prefWidth="228.0" style="-fx-background-color: #263F73;" BorderPane.alignment="CENTER">
+            <children>
+                <Circle fill="#1fc7ff00" layoutX="114.0" layoutY="168.0" radius="106.0" stroke="#c9c3c3" strokeType="INSIDE">
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </Circle>
+                <Label alignment="CENTER" layoutX="11.0" layoutY="116.0" prefHeight="17.0" prefWidth="204.0" text="PharmaGest" textFill="WHITE">
+                    <font>
+                        <Font name="Verdana Bold" size="24.0" />
+                    </font>
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </Label>
+                <Label alignment="CENTER" layoutX="12.0" layoutY="185.0" prefHeight="17.0" prefWidth="204.0" text="La Pharma Populaire" textFill="WHITE">
+                    <font>
+                        <Font name="Verdana Bold" size="17.0" />
+                    </font>
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </Label>
+                <Line endX="100.0" layoutX="113.0" layoutY="168.0" startX="-100.0" stroke="#ddd0d0" />
+                <Circle fill="#e7e9eb" layoutX="41.0" layoutY="94.0" radius="15.0" stroke="#e4dfdf" strokeType="INSIDE" />
+                <Label alignment="CENTER" layoutX="11.0" layoutY="365.0" prefHeight="17.0" prefWidth="204.0" text="Copyright (c). Tous Droits Réservés. 2024." textFill="WHITE">
+                    <font>
+                        <Font name="Verdana Bold" size="8.0" />
+                    </font>
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </Label>
+            </children>
+        </AnchorPane>
+    </left>
+    <center>
+        <AnchorPane prefHeight="407.0" prefWidth="332.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label alignment="CENTER" layoutX="31.0" layoutY="51.0" prefHeight="17.0" prefWidth="226.0" text="Login" textFill="WHITE">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                    <effect>
+                        <InnerShadow />
+                    </effect>
+                </Label>
+                <Label layoutX="25.0" layoutY="119.0" text="Identifiant">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label layoutX="27.0" layoutY="160.0" text="Password">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="usernameTextfield" layoutX="100.0" layoutY="117.0" promptText="Entrez votre Username" />
+                <PasswordField fx:id="passwordPasswordfield" layoutX="100.0" layoutY="158.0" promptText="Mot de Passe" />
+                <Button fx:id="loginButton" layoutX="25.0" layoutY="232.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="44.0" prefWidth="238.0" style="-fx-background-color: #263F73;" text="Connexion" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font></Button>
+                <Button fx:id="cancelButton" layoutX="25.0" layoutY="300.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="44.0" prefWidth="238.0" style="-fx-background-color: #263F73;" text="Quitter" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font></Button>
+                <Label fx:id="loginMessageLabel" alignment="CENTER" layoutX="17.0" layoutY="91.0" prefHeight="18.0" prefWidth="250.0" textFill="#eb0a0a" />
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>
+
+

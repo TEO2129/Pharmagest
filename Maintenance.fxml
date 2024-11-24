@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="25.0" layoutY="47.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="166.0" text="Médicament" />
+      <Button layoutX="207.0" layoutY="47.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="166.0" text="Forme" />
+      <Button layoutX="385.0" layoutY="47.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="187.0" text="Famille" />
+      <Button layoutX="25.0" layoutY="200.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="166.0" text="Fournisseur" />
+      <Button layoutX="207.0" layoutY="201.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="166.0" text="Utilisateur" />
+      <Button layoutX="385.0" layoutY="199.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="187.0" text="MAJ Liste des prix" />
+      <Button layoutX="177.0" layoutY="324.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="225.0" text="Deconnexion" />
+   </children>
+</Pane>
